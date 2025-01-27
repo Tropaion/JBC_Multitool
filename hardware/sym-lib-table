@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPL7407LDR")(type "KiCad")(uri "${KIPRJMOD}/custom_components/symbols/TPL7407LDR.kicad_sym")(options "")(descr ""))
+  (lib (name "HF49FD")(type "KiCad")(uri "${KIPRJMOD}/custom_components/symbols/HF49FD.kicad_sym")(options "")(descr ""))
+  (lib (name "SRD-05VDC-SL-C")(type "KiCad")(uri "${KIPRJMOD}/custom_components/symbols/SRD-05VDC-SL-C.kicad_sym")(options "")(descr ""))
+)
