@@ -3988,6 +3988,7 @@
 	)
 	(label "TOOL_CODE"
 		(at 231.14 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3998,6 +3999,7 @@
 	)
 	(label "TOOL_SENSOR"
 		(at 231.14 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4008,6 +4010,7 @@
 	)
 	(label "TOOL_SENSOR"
 		(at 69.85 33.02 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4018,6 +4021,7 @@
 	)
 	(label "TOOL_SENSOR"
 		(at 147.32 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4028,6 +4032,7 @@
 	)
 	(label "TOOL_CODE"
 		(at 60.96 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4038,6 +4043,7 @@
 	)
 	(label "TOOL_POWER"
 		(at 60.96 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4048,6 +4054,7 @@
 	)
 	(label "TOOL_POWER"
 		(at 64.77 33.02 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4058,6 +4065,7 @@
 	)
 	(label "TOOL_POWER"
 		(at 231.14 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,6 +4076,7 @@
 	)
 	(label "TOOL_POWER"
 		(at 146.05 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4078,6 +4087,7 @@
 	)
 	(label "T210_TOOL_CODE"
 		(at 90.17 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4088,6 +4098,7 @@
 	)
 	(label "TOOL_CODE"
 		(at 159.4122 31.7446 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4098,6 +4109,7 @@
 	)
 	(label "TOOL_CODE"
 		(at 146.05 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4108,6 +4120,7 @@
 	)
 	(label "TOOL_SENSOR"
 		(at 60.96 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4118,6 +4131,7 @@
 	)
 	(label "T210_TOOL_CODE"
 		(at 159.4122 36.8246 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4128,6 +4142,7 @@
 	)
 	(label "TOOL_CODE"
 		(at 90.17 35.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4139,6 +4154,7 @@
 	(hierarchical_label "TOOL_2_SEL"
 		(shape input)
 		(at 110.49 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4150,6 +4166,7 @@
 	(hierarchical_label "TOOL_3_SEL"
 		(shape input)
 		(at 195.58 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4161,6 +4178,7 @@
 	(hierarchical_label "TOOL_CODE_SEL"
 		(shape input)
 		(at 127.6622 39.3646 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4172,6 +4190,7 @@
 	(hierarchical_label "TOOL_POWER_SEL"
 		(shape input)
 		(at 35.56 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4183,6 +4202,7 @@
 	(hierarchical_label "TOOL_1_SEL"
 		(shape input)
 		(at 25.4 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
