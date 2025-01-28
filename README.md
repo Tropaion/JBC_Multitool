@@ -9,3 +9,6 @@ View the latest [PCB Interactive BOM](https://htmlpreview.github.io/?https://git
 <p float="left">
   <img src="https://github.com/Tropaion/JBC_Multitool/blob/main/images/pcb.png?raw=true" width="40%" />
 </p>
+
+# Attribution
+This project is based on on [this project from Lajt](https://lajtronix.eu/2024/02/08/jbc-3-tool-selector/)
