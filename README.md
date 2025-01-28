@@ -11,4 +11,4 @@ View the latest [PCB Interactive BOM](https://htmlpreview.github.io/?https://git
 </p>
 
 # Attribution
-This project is based on on [this project from Lajt](https://lajtronix.eu/2024/02/08/jbc-3-tool-selector/)
+This project is based on [this project from Lajt](https://lajtronix.eu/2024/02/08/jbc-3-tool-selector/)
