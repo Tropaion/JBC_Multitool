@@ -1,5 +1,6 @@
 # JBC_Multitool
-A slot extension device for JBC soldering stations with only one soldering iron terminal
+A slot extension device for JBC soldering stations with only one soldering iron terminal.
+It is possible to connect one soldering iron with the old hirose connector, like the [T210](https://www.weidinger.eu/de/wl13282) and [T245](https://www.weidinger.eu/de/wl13283).
 
 THE PROJECT IS STILL WIP.
 
