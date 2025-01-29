@@ -2,8 +2,8 @@
 A slot extension device for JBC soldering stations with only one soldering iron terminal.
 It is possible to connect:
 
-1x soldering iron with the old hirose connector, like the [T210](https://www.weidinger.eu/de/wl13282) and [T245](https://www.weidinger.eu/de/wl13283)
-2x soldering iron with the newer binder connector, like the [NT115A](https://www.weidinger.eu/de/wl44430) and [AN115A](https://www.weidinger.eu/de/wl45372)
+* 1x soldering iron with the old hirose connector, like the [T210](https://www.weidinger.eu/de/wl13282) and [T245](https://www.weidinger.eu/de/wl13283)
+* 2x soldering iron with the newer binder connector, like the [NT115A](https://www.weidinger.eu/de/wl44430) and [AN115A](https://www.weidinger.eu/de/wl45372)
 
 THE PROJECT IS STILL WIP.
 
