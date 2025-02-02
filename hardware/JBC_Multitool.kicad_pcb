@@ -21261,7 +21261,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JBC CONNECTOR + SUPPLY"
+	(gr_text "JBC CONNECTOR MAIN"
 		(at 183 52.9 90)
 		(layer "F.SilkS")
 		(uuid "213f9402-c90e-4b37-ba4a-cb75451267fe")
@@ -21274,7 +21274,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "JBC 3 NEW CONNECTOR"
+	(gr_text "JBC TOOL 3 (NEW)"
 		(at 183 107.9 90)
 		(layer "F.SilkS")
 		(uuid "4cfe9375-284b-4401-9a1d-3246e8fc11c5")
@@ -21300,8 +21300,8 @@
 			(justify right bottom)
 		)
 	)
-	(gr_text "JBC 1 OLD CONNECTOR"
-		(at 183 68.9 90)
+	(gr_text "JBC TOOL 1 (OLD)"
+		(at 183 69 90)
 		(layer "F.SilkS")
 		(uuid "59a471d0-7062-43d7-be1f-be8465a7eef9")
 		(effects
@@ -21326,7 +21326,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JBC 2 OLD CONNECTOR"
+	(gr_text "JBC TOOL 2 (OLD)"
 		(at 183 86.9 90)
 		(layer "F.SilkS")
 		(uuid "6b508b31-2b0b-4eee-84e6-b9be91a03227")
@@ -21426,7 +21426,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "JBC 4 NEW CONNECTOR"
+	(gr_text "JBC TOOL 4 (NEW)"
 		(at 183 125.9 90)
 		(layer "F.SilkS")
 		(uuid "f2bf739c-8add-407f-9dc5-595ca6e29d77")
