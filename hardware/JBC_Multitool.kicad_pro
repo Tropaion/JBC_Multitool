@@ -490,7 +490,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -771,7 +771,7 @@
   "sheets": [
     [
       "e95a2ab1-77d4-4e77-b240-8651c7fb5700",
-      "Root"
+      "Stammblatt"
     ],
     [
       "154b1838-4760-485a-9d53-3854b8b8d464",

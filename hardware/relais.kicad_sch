@@ -5695,7 +5695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "<a href=\"https://mou.sr/40RtPIA\">MKDS 3/ 3-5,08</a> + <a href=\"https://mou.sr/3CrlIJy\">523-AG6MCC</a> + <a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
+		(property "Mouser" "<a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -6007,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "<a href=\"https://mou.sr/3CryA2f\">MKDS 3/ 4-5,08</a> + <a href=\"https://mou.sr/3CrlIJy\">523-AG6MCC</a> + <a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
+		(property "Mouser" "<a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
 			(at 80.01 35.56 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "<a href=\"https://mou.sr/40xb1NK\">MKDS 3/ 5-5,08</a> + Part from RS Components"
+		(property "Mouser" ""
 			(at 86.36 161.29 0)
 			(effects
 				(font
@@ -8208,7 +8208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "<a href=\"https://mou.sr/40RtPIA\">MKDS 3/ 3-5,08</a> + <a href=\"https://mou.sr/3CrlIJy\">523-AG6MCC</a> + <a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
+		(property "Mouser" "<a href=\"https://mou.sr/4glJCnv\">523-AG6M</a>"
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "<a href=\"https://mou.sr/40xb1NK\">MKDS 3/ 5-5,08</a> + Part from RS Components"
+		(property "Mouser" ""
 			(at 256.54 91.44 0)
 			(effects
 				(font
