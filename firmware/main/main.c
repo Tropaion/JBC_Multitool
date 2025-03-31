@@ -5,6 +5,7 @@
 
 // Define ms delay
 #define DELAY(ms)           vTaskDelay(pdMS_TO_TICKS(ms))
+#define DEBOUNCE            DELAY(250)
 
 // === RELAIS PINS ===
 #define POWER_RELAIS        GPIO_NUM_19
@@ -33,7 +34,7 @@
 #define TOOL3_SWITCH        GPIO_NUM_26
 #define TOOL4_SWITCH        GPIO_NUM_14
 
-#define SWITCH_DISABLED     0
+#define SWITCH_ENABLED     0
 
 // Variable which saves active tool
 int active_tool = 0;
@@ -213,24 +214,58 @@ void app_main(void)
     while(1)
     {
         // Check if button was pressed
-        // if (gpio_get_level(TOOL1_SWITCH) == SWITCH_DISABLED) {
-        //     set_tool_1();
-        // }
+        if (gpio_get_level(TOOL1_SWITCH) == SWITCH_ENABLED) {
+            // Enable tool 1
+            set_tool_1();
+
+            // Wait debounce time
+            DEBOUNCE;
+
+            // Wait for button to be released
+            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+                // Wait debounce time
+                DEBOUNCE;
+            }
+        }
+
         // Check if button was pressed
-        if (gpio_get_level(TOOL2_SWITCH) == SWITCH_DISABLED) {
+        if (gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+            // Enable tool 2
             set_tool_2();
+
+            // Wait debounce time
+            DEBOUNCE;
+
+            // Wait for button to be released
+            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+                // Wait debounce time
+                DEBOUNCE;
+            }
         }
 
         // Check if button was pressed
-        if (gpio_get_level(TOOL3_SWITCH) == SWITCH_DISABLED) {
+        if (gpio_get_level(TOOL3_SWITCH) == SWITCH_ENABLED) {
+            // Enable tool 3
             set_tool_3();
+
+            // Wait for button to be released
+            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+                // Wait debounce time
+                DEBOUNCE;
+            }
         }
 
         // Check if button was pressed
-        if (gpio_get_level(TOOL4_SWITCH) == SWITCH_DISABLED) {
+        if (gpio_get_level(TOOL4_SWITCH) == SWITCH_ENABLED) {
+            // Enable tool 4
             set_tool_4();
-        }
 
+            // Wait for button to be released
+            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+                // Wait debounce time
+                DEBOUNCE;
+            }
+        }
         // Let IDLE0 task reset watchdog
         vTaskDelay(1);
     }
