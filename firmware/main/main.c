@@ -150,7 +150,7 @@ void set_tool_2() {
 // Enables tool 3
 void set_tool_3() {
     // Check if tool is aready active
-    if (active_tool == 2) {
+    if (active_tool == 3) {
         // Debounce
         DELAY(200);
         return;
@@ -222,7 +222,7 @@ void app_main(void)
             DEBOUNCE;
 
             // Wait for button to be released
-            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+            while(gpio_get_level(TOOL1_SWITCH) == SWITCH_ENABLED) {
                 // Wait debounce time
                 DEBOUNCE;
             }
@@ -248,8 +248,11 @@ void app_main(void)
             // Enable tool 3
             set_tool_3();
 
+            // Wait debounce time
+            DEBOUNCE;
+
             // Wait for button to be released
-            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+            while(gpio_get_level(TOOL3_SWITCH) == SWITCH_ENABLED) {
                 // Wait debounce time
                 DEBOUNCE;
             }
@@ -261,7 +264,7 @@ void app_main(void)
             set_tool_4();
 
             // Wait for button to be released
-            while(gpio_get_level(TOOL2_SWITCH) == SWITCH_ENABLED) {
+            while(gpio_get_level(TOOL4_SWITCH) == SWITCH_ENABLED) {
                 // Wait debounce time
                 DEBOUNCE;
             }
