@@ -8,9 +8,9 @@
 #define DEBOUNCE            DELAY(250)
 
 // === RELAIS PINS ===
-#define POWER_RELAIS        GPIO_NUM_19
-#define SENSOR_RELAIS       GPIO_NUM_18
-#define TOOL1_RELAIS        GPIO_NUM_5
+#define POWER_RELAIS        GPIO_NUM_21
+#define SENSOR_RELAIS       GPIO_NUM_19
+#define TOOL1_RELAIS        GPIO_NUM_18
 #define TOOL2_RELAIS        GPIO_NUM_17
 #define TOOL3_RELAIS        GPIO_NUM_16
 #define TOOL4_RELAIS        GPIO_NUM_4
@@ -19,20 +19,19 @@
 #define RELAIS_DISABLED     0
 
 // === LED PINS ===
-#define TOOL1_LED           GPIO_NUM_32
-#define TOOL2_LED           GPIO_NUM_25
-#define TOOL3_LED           GPIO_NUM_27
-// To use this pin, set fuse: espefuse.py --port COM5 set_flash_voltage 3.3V
+#define TOOL1_LED           GPIO_NUM_35
+#define TOOL2_LED           GPIO_NUM_33
+#define TOOL3_LED           GPIO_NUM_26
 #define TOOL4_LED           GPIO_NUM_12
 
 #define LED_ENABLED         0
 #define LED_DISABLED        1
 
 // === SWITCH PINS ===
-#define TOOL1_SWITCH        GPIO_NUM_35
-#define TOOL2_SWITCH        GPIO_NUM_33
-#define TOOL3_SWITCH        GPIO_NUM_26
-#define TOOL4_SWITCH        GPIO_NUM_14
+#define TOOL1_SWITCH        GPIO_NUM_34
+#define TOOL2_SWITCH        GPIO_NUM_32
+#define TOOL3_SWITCH        GPIO_NUM_25
+#define TOOL4_SWITCH        GPIO_NUM_27
 
 #define SWITCH_ENABLED     0
 
