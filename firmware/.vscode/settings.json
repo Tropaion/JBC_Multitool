@@ -1,7 +1,7 @@
 {
     "C_Cpp.intelliSenseEngine": "default",
     "idf.espIdfPathWin": "c:\\Users\\FabianPlaimauer\\Documents\\espressif\\v5.4.1\\esp-idf",
-    "idf.pythonInstallPath": "c:\\Users\\FabianPlaimauer\\Documents\\esp-idf\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.pythonInstallPath": "/usr/bin/python",
     "idf.openOcdConfigs": [
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
